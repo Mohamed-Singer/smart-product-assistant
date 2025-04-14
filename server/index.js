@@ -13,6 +13,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Only log detailed request information in development
 if (process.env.NODE_ENV !== 'production') {
   app.use((req, res, next) => {
     console.log(`\n[${new Date().toISOString()}] ${req.method} ${req.originalUrl}`);
