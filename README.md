@@ -15,7 +15,7 @@ Smart Product Assistant demonstrates how AI can transform the e-commerce experie
 
 ## Tech Stack
 
-- **Frontend**: React 19, React Router 7
+- **Frontend**: React 18, React Router 6
 - **Backend**: Node.js with Express
 - **Database**: MongoDB with Mongoose
 - **AI Integration**: OpenRouter API (multi-model LLM gateway)
@@ -32,7 +32,7 @@ Smart Product Assistant demonstrates how AI can transform the e-commerce experie
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/smart-product-assistant.git
+git clone https://github.com/Mohamed-Singer/smart-product-assistant.git
 cd smart-product-assistant
 ```
 
@@ -278,7 +278,23 @@ The application uses OpenRouter as an API gateway to access various LLM models:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Contributing
+
+Contributions are welcome! Here's how you can contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+Please make sure to update tests as appropriate and follow the code style of the project.
+
 ## Acknowledgments
 
 - OpenRouter for providing access to multiple LLM models
 - MongoDB Atlas for cloud database services
+
+## Author
+
+- **Mohamed Singer** - [GitHub](https://github.com/Mohamed-Singer)
